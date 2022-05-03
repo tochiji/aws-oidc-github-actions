@@ -2,9 +2,6 @@ name: AWS OIDC Test
 
 on: push
 
-# permissionsの設定について
-# Requesting the access token
-# https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services#requesting-the-access-token
 permissions:
   id-token: write
   contents: read
